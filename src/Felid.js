@@ -1,10 +1,12 @@
-var Felid = function(name, favoriteFood) {
+class Felid {
+  constructor(name, favoriteFood) {
   this.name = name;
   this.favoriteFood = favoriteFood;
-};
+  };
 
-Felid.prototype.groom = function() {
+  groom() {
   return 'Licks its coat';
-};
+  };
+}
 
 module.exports = Felid;
